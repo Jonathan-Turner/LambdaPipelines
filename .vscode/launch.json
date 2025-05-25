@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug LambdaPipelines GUI",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build LambdaPipelines GUI",
+            "program": "${workspaceFolder}/src/LambdaPipelines.Gui/bin/Debug/net9.0/LambdaPipelines.Gui.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/LambdaPipelines.Gui",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Debug Example Console App",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build Example Console App",
+            "program": "${workspaceFolder}/src/LambdaPipelines.ExampleConsoleApp/bin/Debug/net8.0/LambdaPipelines.ExampleConsoleApp.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/LambdaPipelines.ExampleConsoleApp",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Debug Tests",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build Tests",
+            "program": "${workspaceFolder}/src/LambdaPipelines.Triggers.Tests/bin/Debug/net9.0/LambdaPipelines.Triggers.Tests.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/LambdaPipelines.Triggers.Tests",
+            "stopAtEntry": false
+        }
+    ]
+}
