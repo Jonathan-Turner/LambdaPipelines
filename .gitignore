@@ -1,0 +1,37 @@
+# .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Avalonia build artifacts
+*.axaml.cs
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+
+# Local environment files
+.env
+
+# Rider IDE files
+.idea/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Logs
+*.log
+
+# Others
+_ReSharper*/
+*.resharper
+*.vs/
